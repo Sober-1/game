@@ -1,0 +1,49 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #b0b0b0;
+  height: 100vh;
+}
+.content{
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  border: 10px solid skyblue;
+  position: relative;
+  background:#4b67af;
+}
+
+.btn{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#main{
+  height:100%;
+  width: 100%;
+  display: none;
+  position: relative;
+}
+.btn button{
+  outline: none;
+  width: 200px;
+  height: 80px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 550;
+  cursor: pointer;
+  margin: 260px 200px;
+}
+.end{
+  display: none;
+}
+.food{
+  width: 15px;
+  height: 15px;
+  background-color: #aaff !important;
+}
